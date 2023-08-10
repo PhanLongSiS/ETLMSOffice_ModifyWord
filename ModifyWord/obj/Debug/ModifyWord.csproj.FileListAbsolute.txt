@@ -10,4 +10,3 @@ D:\DoAn\SMP_MSOfficeJson\ModifyWord\obj\Debug\ModifyWord.csproj.CoreCompileInput
 D:\DoAn\SMP_MSOfficeJson\ModifyWord\obj\Debug\ModifyWord.csproj.CopyComplete
 D:\DoAn\SMP_MSOfficeJson\ModifyWord\obj\Debug\ModifyWord.exe
 D:\DoAn\SMP_MSOfficeJson\ModifyWord\obj\Debug\ModifyWord.pdb
-D:\DoAn\SMP_MSOfficeJson\ModifyWord\obj\Debug\ModifyWord.csproj.AssemblyReference.cache

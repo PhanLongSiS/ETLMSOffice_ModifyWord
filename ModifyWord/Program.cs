@@ -58,7 +58,7 @@ namespace ModifyWord
 
             if (!File.Exists(JsonFile))
             {
-                errMsg = "File " + JsonFile + " không tôn tại \n. Thư mục hiện thời: " + Directory.GetCurrentDirectory() + "\n. Xem file demo.json để biết cấu trúc đầu vào";
+                errMsg = "File " + JsonFile + " không tôn tại";
                 json = "";
 
             }
@@ -70,7 +70,7 @@ namespace ModifyWord
             WorldTemplateFileName = Directory.GetCurrentDirectory() + "\\" + WorldTemplateFileName;
             if (!File.Exists(WorldTemplateFileName))
             {
-                errMsg = "File " + WorldTemplateFileName + " không tôn tại \n. Thư mục hiện thời: " + Directory.GetCurrentDirectory() + "\n. Xem file demo.json để biết cấu trúc đầu vào";
+                errMsg = "File " + WorldTemplateFileName + " không tôn tại";
                 json = "";
 
             }
@@ -81,7 +81,6 @@ namespace ModifyWord
             Console.WriteLine("Version 2.0");
             Console.WriteLine(errMsg);
             Debug.WriteLine(errMsg);
-            Console.ReadKey();
         }
 
         /// <summary>
